@@ -3,17 +3,17 @@
 
 #include <iostream>
 
+
+
+
 int main()
 {
     
-    for ( int h = 0; h < 10; ++h)
+
+    for (int a = 0; a < 10; a += 2)
     {
-        std::cout << h << '\n';
-        if (h < 5)
-        {
-            continue;
-        }
-        std::cout << h+2 << '\n';
+        
+        std::cout << a << '\n';
+       
     }
-    
 }
