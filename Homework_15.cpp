@@ -2,18 +2,19 @@
 //
 
 #include <iostream>
-
-
-
+void OddOrNot(int N, bool x)
+{
+    for (int i = x ? 0:1; i <= N; i += 2)
+    {
+        
+        std::cout << " i =" << i << '\n';
+        
+    }
+}
 
 int main()
 {
     
 
-    for (int a = 0; a < 10; a += 2)
-    {
-        
-        std::cout << a << '\n';
-       
-    }
+    OddOrNot(20, true);
 }
